@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from '../Button';
+import ComingSoon from '../ComingSoon';
 import styles from './CallToAction.module.css';
 
 const CallToAction = () => {
@@ -11,7 +11,7 @@ const CallToAction = () => {
             Stay up-to-date on the latest programming news,<br></br> 
             keep track of your favorite snippets, and share your solutions with others.
         </h2>
-        <Button type='default'/>
+        <ComingSoon />
     </div>
   );
 

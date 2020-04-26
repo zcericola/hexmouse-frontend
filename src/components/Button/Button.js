@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './Button.module.css';
 import cs from 'classnames';
 
-const Button = ({type}) => {
+const Button = ({type, text}) => {
   return (
-        <button className={cs(styles[type] || styles.default)}>Sign Up Now</button>
+  <button className={cs(styles[type] || styles.default)}>{text}</button>
   );
 };
 
