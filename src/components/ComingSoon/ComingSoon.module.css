@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+}
+
+.comingSoonText {
+  color: #ffd836;
+  font-family: var(--body-font);
+  font-size: 2em;
+}
+
+.emailInput {
+  margin-right: 2em;
+  height: 4em;
+  width: 300px;
+  display: inline-flex;
+  border-radius: 3px;
+}

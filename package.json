@@ -17,11 +17,11 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER='firefox developer edition' react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "format": "prettier --write \"{,!(node_modules)/**/}*.{js,jsx}\"",
-    "dev": "react-scripts start",
+    "dev": "BROWSER='firefox developer edition' react-scripts start",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
