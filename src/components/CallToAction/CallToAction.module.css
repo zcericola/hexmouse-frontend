@@ -1,0 +1,17 @@
+.wrapper {
+    position: relative;
+    top: 6em;
+    margin: 0 auto;
+    width: 90vw;
+    color: white;
+}
+
+.ctaTitle {
+    font-family: var(--title-font);
+    font-size: 6.4em;
+}
+
+.ctaSubtitle {
+    font-family: var(--body-font);
+    font-size: 3em;
+}

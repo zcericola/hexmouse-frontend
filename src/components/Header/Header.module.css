@@ -1,0 +1,10 @@
+.header {
+    font-family: var(--title-font);
+    padding: 2.5em;
+}
+
+.logo {
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
+}
