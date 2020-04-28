@@ -7,7 +7,12 @@ const ComingSoon = () => {
           <h3 className={styles.comingSoonText}>Notify me when Hexmouse launches:</h3>
           <section className={styles.form}>
           <input className={styles.emailInput} 
-          placeholder='Enter your email address'/>
+          type="text"
+          id="emailInput" 
+          name="emailInput"
+          required
+          />
+          <label for="emailInput" className={styles.label}>Email Address</label>
           <Button type='default' text='Sign Up'/>
           </section>
       </section>

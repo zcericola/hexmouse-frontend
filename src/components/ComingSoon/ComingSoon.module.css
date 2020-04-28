@@ -19,18 +19,32 @@
 }
 
 .emailInput {
-    /* margin-right: 2em; */
     margin: 3px 23px 3px 3px;
-    height: 3em;
+    height: 3.3em;
     width: 300px;
     display: inline-flex;
     border-radius: 3px;
     padding-left: 0.5em;
     font-size: 1.6em;
+    box-sizing: border-box;
 }
 
 .emailInput:focus {
     outline: none;
     border: 3px solid var(--primary-color);
-    height: 2.7em;
+    /* height: 2.7em; */
+}
+
+.emailInput:focus + .label {
+    color: var(--primary-color);
+    transform: translateY(-40px);
+}
+
+.label {
+    position: absolute;
+    font-family: var(--body-font);
+    font-size: 1.6em;
+    color: var(--main-bg-color);
+    left: 1em;
+    transition: 0.2s;
 }
