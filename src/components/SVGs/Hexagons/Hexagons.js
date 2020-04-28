@@ -3,7 +3,7 @@ import styles from './Hexagons.module.css';
 
 const Hexagons = ({type}) => {
   return (
-        <div className={styles.hexagonImage}></div>
+          <div className={styles.hexagonImage}></div>
   );
 };
 

@@ -1,11 +1,10 @@
 .hexagonImage {
-  background-image: url(../../../assets/hexagon_design.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  height: 50em;
-  width: 65em;
-  left: 93em;
-  object-fit: cover;
-  bottom: 27em;
+    background-image: url(../../../assets/hexagon_design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 50em;
+    width: 65em;
+    left: 93em;
+    bottom: 27em;
 }
