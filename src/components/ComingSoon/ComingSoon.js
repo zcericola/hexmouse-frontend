@@ -10,15 +10,6 @@ const ComingSoon = () => {
         Notify me when Hexmouse launches:
       </h3>
       <section className={styles.form}>
-        {/* <input
-          className={styles.emailInput}
-          type="text"
-          id="emailInput"
-          name="emailInput"
-        />
-        <label htmlFor="emailInput" className={styles.label}>
-          Email Address
-        </label> */}
         <Input text="Email Address" />
         <Button type="default" text="Sign Up" />
       </section>

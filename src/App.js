@@ -1,13 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
-import CallToAction from './components/CallToAction';
+import LandingPage from './pages/LandingPage';
 import styles from './app.module.css';
 
 const App = () => {
   return (
     <div className={styles.app}>
-      <Header />
-      <CallToAction />
+      <LandingPage />
     </div>
   );
 };

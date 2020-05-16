@@ -1,19 +1,17 @@
 .wrapper {
-  display: flex;
-  /* align-items: baseline; */
-  justify-content: flex-start;
-  flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .form {
-  display: flex;
-  align-items: center;
-  padding: 1em 0;
+    display: flex;
+    align-items: center;
+    margin-top: 2.5em;
 }
 
 .comingSoonText {
-  /* color: #ffd836; */
-  color: var(--primary-color);
-  font-family: var(--body-font);
-  font-size: 2em;
+    color: var(--primary-color);
+    font-family: var(--body-font);
+    font-size: 2em;
 }

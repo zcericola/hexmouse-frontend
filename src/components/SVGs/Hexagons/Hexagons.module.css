@@ -1,23 +1,22 @@
-/* .hexagonWrapper {
-    position: relative;
-    height: 30em;
-    width: 50em;
-    left: 65%;
-    bottom: 20%;
-} */
-
 .hexagonImage {
     background-image: url(../../../assets/hexagon_design.svg);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    height: 45em;
-    width: 65em;
+    margin: 0;
+    /* height: 70%;
+    width: 48%; */
+    height: 600px;
+    width: 600px;
+    left: 840px;
+    top: -2px;
+    /* border: 2px solid; */
+    /* height: 45em;
+    width: 65em; */
     /* height: 50em;
     width: 65em; */
     /* bottom: 50%; */
-    left: 65%;
-    bottom: 45%;
-
-    /* bottom: 27em; */
+    /* left: 65%; */
+    /* bottom: 45%; */
+    /* bottom: 20rem;s */
 }
