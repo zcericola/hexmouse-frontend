@@ -9,7 +9,7 @@
     "ecmaVersion": 2020
   },
   "rules": {
-    "extends": ["prettier"],
+    "extends": ["plugin:prettier/recommended"],
     "plugins": ["prettier"],
     "prettier/prettier": ["error"],
     "indent": [

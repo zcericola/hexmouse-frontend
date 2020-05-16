@@ -1,24 +1,17 @@
 .wrapper {
-  display: flex;
-  justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .form {
-  display: flex;
-  align-items: center;
-  margin-left: 2em;
+    display: flex;
+    align-items: center;
+    margin-top: 2.5em;
 }
 
 .comingSoonText {
-  color: #ffd836;
-  font-family: var(--body-font);
-  font-size: 2em;
-}
-
-.emailInput {
-  margin-right: 2em;
-  height: 4em;
-  width: 300px;
-  display: inline-flex;
-  border-radius: 3px;
+    color: var(--primary-color);
+    font-family: var(--body-font);
+    font-size: 2em;
 }

@@ -12,6 +12,8 @@
 }
 
 .ctaSubtitle {
+    position: relative;
     font-family: var(--body-font);
     font-size: 3em;
+    bottom: 20px;
 }
