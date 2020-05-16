@@ -5,8 +5,8 @@ import Hexagons from '../SVGs/Hexagons';
 const Header = () => {
   return (
     <div className={styles.header}>
-        <span className={styles.logo}>Hexmouse</span>
-        <Hexagons/>
+      <span className={styles.logo}>Hexmouse</span>
+      <Hexagons />
     </div>
   );
 };

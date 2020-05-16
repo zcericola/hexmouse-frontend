@@ -1,2 +1,2 @@
-import CallToAction from './CallToAction'
+import CallToAction from './CallToAction';
 export default CallToAction;

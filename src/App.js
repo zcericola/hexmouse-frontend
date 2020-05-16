@@ -6,10 +6,10 @@ import styles from './app.module.css';
 const App = () => {
   return (
     <div className={styles.app}>
-      <Header/>
-      <CallToAction/>
+      <Header />
+      <CallToAction />
     </div>
   );
-}
+};
 
 export default App;
