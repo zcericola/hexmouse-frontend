@@ -17,3 +17,9 @@
     font-size: 3em;
     bottom: 20px;
 }
+
+@media only screen and (min-width: 1450px) {
+    .ctaTitle {
+        font-size: 8em;
+    }
+}
