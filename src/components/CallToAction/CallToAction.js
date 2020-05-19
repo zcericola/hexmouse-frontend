@@ -9,11 +9,19 @@ const CallToAction = () => {
       <h1 className={styles.ctaTitle}>
         Organize your development <br></br> workflow.
       </h1>
-      <h2 className={styles.ctaSubtitle}>
-        Stay up-to-date on the latest programming news,<br></br>
-        keep track of your favorite snippets, and share your solutions with
-        others.
-      </h2>
+      {/* Ternary is temporary */}
+      {window.screen.width <= 360 ? (
+        <h2 className={styles.ctaSubtitle}>
+          Stay up-to-date on the latest programming news,<br></br>
+          keep track of your favorite snippets, and share your solutions with
+          others.
+        </h2>
+      ) : (
+        <h2 className={styles.ctaSubtitle}>
+          Stay up-to-date on the latest programming news, keep track of your
+          favorite snippets, and share your solutions with others.
+        </h2>
+      )}
       <ComingSoon />
     </div>
   );

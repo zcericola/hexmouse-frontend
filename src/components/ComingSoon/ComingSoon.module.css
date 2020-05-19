@@ -1,17 +1,39 @@
 .wrapper {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .form {
-    display: flex;
-    align-items: center;
-    margin-top: 2.5em;
+  display: flex;
+  align-items: center;
+  margin-top: 2.5em;
 }
 
 .comingSoonText {
-    color: var(--primary-color);
-    font-family: var(--body-font);
-    font-size: 2em;
+  color: var(--primary-color);
+  font-family: var(--body-font);
+  font-size: 2em;
+}
+
+.stayTuned {
+  color: var(--primary-color);
+  font-family: var(--body-font);
+  font-size: 3em;
+  text-align: center;
+}
+
+/* mobile portrait */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .stayTuned {
+    font-size: 2.5em;
+    color: var(--secondary-color);
+  }
+}
+
+/* tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .stayTuned {
+    color: var(--secondary-color);
+  }
 }

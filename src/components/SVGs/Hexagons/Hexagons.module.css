@@ -1,22 +1,41 @@
 .wrapper {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .hexagonImage {
-    background-image: url(../../../assets/hexagon_design.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top right;
-    position: relative;
-    margin: 0;
-    height: 60%;
-    width: 100%;
+  background-image: url(../../../assets/hexagon_design.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  position: relative;
+  margin: 0;
+  height: 60%;
+  width: 100%;
 }
 
+/* mobile portrait */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .hexagonImage {
+    background-image: url(../../../assets/m_hexagon_design.svg);
+  }
+}
+
+/* Mobile landscape*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 740px) and (orientation: landscape) {
+}
+
+/* tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .hexagonImage {
+    background-image: url(../../../assets/t_hexagon_design.svg);
+  }
+}
+
+/* big screen */
 @media only screen and (min-width: 1450px) {
-    .hexagonImage {
-        height: 70%;
-    }
+  .hexagonImage {
+    height: 70%;
+  }
 }
