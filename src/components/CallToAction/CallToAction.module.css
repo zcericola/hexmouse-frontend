@@ -1,19 +1,67 @@
 .wrapper {
-    position: relative;
-    top: 6em;
-    margin: 0 auto;
-    width: 90vw;
-    color: white;
+  position: relative;
+  top: 6em;
+  margin: 0 auto;
+  width: 90vw;
+  color: white;
 }
 
 .ctaTitle {
-    font-family: var(--title-font);
-    font-size: 6.4em;
+  font-family: var(--title-font);
+  font-size: 6.4em;
 }
 
 .ctaSubtitle {
-    position: relative;
-    font-family: var(--body-font);
-    font-size: 3em;
-    bottom: 20px;
+  position: relative;
+  font-family: var(--body-font);
+  font-size: 3em;
+  bottom: 20px;
+}
+
+/* mobile portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .ctaTitle {
+    font-size: 3.9em;
+    color: var(--primary-color);
+    line-height: 1.4em;
+    text-align: center;
+  }
+  .ctaSubtitle {
+    font-size: 2.3em;
+    line-height: 1.7em;
+    text-align: center;
+  }
+}
+
+/* mobile landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 740px) and (orientation: landscape) {
+  .ctaTitle {
+    font-size: 3.6em;
+    color: var(--primary-color);
+    line-height: 1.4em;
+  }
+  .ctaSubtitle {
+    font-size: 2.3em;
+    line-height: 1.7em;
+  }
+}
+
+/* tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .ctaTitle {
+    margin-top: 2em;
+    color: var(--primary-color);
+    line-height: 1.2em;
+  }
+  .ctaSubtitle {
+    font-size: 2.3em;
+    line-height: 1.6em;
+  }
+}
+
+/* big screen */
+@media only screen and (min-width: 1450px) {
+  .ctaTitle {
+    font-size: 8em;
+  }
 }
