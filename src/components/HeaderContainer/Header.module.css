@@ -1,0 +1,13 @@
+.header {
+  font-family: var(--title-font);
+  padding: 2.5em;
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+
+.logo {
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
+}

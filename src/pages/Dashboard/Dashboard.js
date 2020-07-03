@@ -1,13 +1,9 @@
 import React from 'react';
-import Header from '../../components/Header';
+// import HeaderContainer from '../../components/HeaderContainer';
 import styles from './Dashboard.module.css';
 
 const Dashboard = () => {
-  return (
-    <div className={styles.Dashboard}>
-      <Header />
-    </div>
-  );
+  return <div className={styles.Dashboard}>{/* <HeaderContainer /> */}</div>;
 };
 
 export default Dashboard;
