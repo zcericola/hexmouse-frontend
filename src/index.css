@@ -5,6 +5,7 @@
   --title-font: 'Gotu', sans-serif;
   --body-font: 'Open Sans', sans-serif;
   --default-radius: 3px;
+  --header-height: 6vh;
 }
 
 body {

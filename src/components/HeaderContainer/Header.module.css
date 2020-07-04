@@ -3,7 +3,14 @@
   padding: 2.5em;
   display: flex;
   align-items: center;
-  background-color: var(--secondary-color);
+  justify-content: space-between;
+  background-color: #ff6562;
+  height: var(--header-height);
+}
+
+.loginButton {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .logo {

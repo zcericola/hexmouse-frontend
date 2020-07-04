@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Login.module.css';
 import HeaderContainer from '../../components/HeaderContainer';
 import ButtonContainer from '../../components/ButtonContainer';
@@ -7,12 +7,14 @@ const { Content } = Layout;
 const { Title } = Typography;
 
 const Login = () => {
+  const [state, setState] = useState({ username: '', password: '' });
+
   const formLayout = {
     labelCol: {
       span: 7
     },
     wrapperCol: {
-      span: 12
+      span: 16
     }
   };
   const tailLayout = {
@@ -21,13 +23,24 @@ const Login = () => {
       span: 16
     }
   };
+
+  const handleLoginValues = (event, field) => {
+    const { value } = event.target;
+    setState((prevState) => ({
+      ...prevState,
+      [field]: value
+    }));
+  };
+  //   console.log('state: ', state);
   return (
     <>
       <HeaderContainer />
       <Content className={styles.loginContainer}>
         <Card>
           <Form className={styles.loginForm} {...formLayout} name="login">
-            <Title className={styles.loginTitle}>Login</Title>
+            <Title className={styles.loginTitle} level={1}>
+              Login
+            </Title>
             <Form.Item
               label="Username"
               name="Username"
@@ -37,6 +50,7 @@ const Login = () => {
                   message: 'Please input your username.'
                 }
               ]}
+              onChange={(event) => handleLoginValues(event, 'username')}
             >
               <Input />
             </Form.Item>
@@ -49,6 +63,7 @@ const Login = () => {
                   message: 'Please input your password.'
                 }
               ]}
+              onChange={(event) => handleLoginValues(event, 'password')}
             >
               <Input.Password />
             </Form.Item>
