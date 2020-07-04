@@ -5,11 +5,29 @@
   min-height: 80vh;
 }
 
-.box {
-  height: 400px;
-  width: 40%;
-  border: 2px solid white;
+.loginForm {
+  /* background: grey; */
+  /* width: 50%; */
   margin: 0 auto;
-  background: white;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 2em;
+  font-family: var(--body-font);
+  color: var(--main-bg-color);
+}
+
+h1.ant-typography,
+.ant-typography h1 {
+  color: blue;
+}
+
+/* .box {
+    height: 400px;
+    width: 40%;
+    border: 2px solid white;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+} */
+
+Content {
+  background: orange;
 }

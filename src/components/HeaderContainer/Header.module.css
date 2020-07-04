@@ -1,0 +1,20 @@
+.header {
+  font-family: var(--title-font);
+  padding: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff6562;
+  height: var(--header-height);
+}
+
+.loginButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
+}

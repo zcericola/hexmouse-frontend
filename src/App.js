@@ -3,21 +3,22 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
-import styles from './app.module.css';
+// import styles from './app.module.css';
+import './app.less';
 
 const App = () => {
   return (
     <Router>
-      <div className={styles.app}>
+      <div>
         <Switch>
-          <Route path="/login">
+          <Route path="/">
             <Login />
           </Route>
-          <Route path="/dashboard">
+          {/* <Route path="/">
             <Dashboard />
-          </Route>
-          <Route path="/">
-            <LandingPage />
+          </Route> */}
+          <Route path="/login">
+            <Login />
           </Route>
         </Switch>
       </div>
